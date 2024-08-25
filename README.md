@@ -92,7 +92,8 @@ After running the first line of the code the contents of the stack pointer get m
 Similarly for the register a0 we observe the following initial and final contents [ O-fast]
 reg 0 a0
 
-!](https://github.com/user-attachments/assets/dfd43fd5-7095-41a9-9629-66638c1611f3)
+![66](https://github.com/user-attachments/assets/8ce8fd15-acfc-4631-9dbf-d6a455d541b1)
+
 
 Similarly we can do the same for all the other instructions in the code and find out the contents in the respective addressing locations and their updated values once we execute the lines in the debugger.
 
