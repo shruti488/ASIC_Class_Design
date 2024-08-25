@@ -1,4 +1,4 @@
-# ASIC_Class_Design
+![333333333](https://github.com/user-attachments/assets/90fe0d26-bdb3-408d-bfb2-4b42ed1a0518)# ASIC_Class_Design
 
 # Software Tools:
 GCC (GNU Compiler Collection)
@@ -45,7 +45,59 @@ step 2:- Get the assembly language code for the given c file
 Once we get the assembly language code we then verify the number of addresses in the code by subtracting the address next to the last line of the code with the first address and dividing the same by 4 since 4 bytes of data is used by each address line.
 ![Wha4](https://github.com/user-attachments/assets/72efa356-7306-4dcc-98de-1b68e8c6c314)
 
+# ASSIGNMENT -3
+Determine the output of the C program using the RISC-V Compiler using Spike simulator, and then debug the code
+Step 1: Compile sum1ton.c using RISCV Compiler using the command given below
+
+riscv64-unknown-elf-gcc -O1 -mabi=lp64-march=rv64i -o sum1ton.o  sum1ton.c
+
+Step 2: Now we have compiled our program using RISCV compiler and we need to run in order to get the output similar to the ./a.out we do using gcc compiler. To do that use Spike Simulator and type the following command given below
+
+spike pk sum1ton.o
+![](https://github.com/user-attachments/assets/38dfb370-afc0-476f-bdae-264b855160ed)
+
+Debugging the Assembly Code
+
+![](https://github.com/user-attachments/assets/ba73f761-536a-4d88-ac4d-f63eddf2544d)
+
+The assembly code of Ofast
+
+![3](https://github.com/user-attachments/assets/9cc34141-90a6-4a6b-9737-85829b86fb92)
+
+To debug the assembly code of your compiled C program using the Spike simulator, follow these steps:
+
+spike -d pk sum1ton.o
+
+We will let the Spike debugger run until it reaches the 100b0 instruction within the main function by running the command given below. From there, we will proceed with manual debugging, checking the a2 register before and after execution.To move on to next instruction press Enter
+
+until pc 0 100b0
+
+Similarly we can apply the same logic for Ofast code
+
+until pc 0 100bo
+
+To check a registers Value type the following command
+
+reg 0 a2
+
+The following are the initial contents of the stack pointer
+
+![](https://github.com/user-attachments/assets/f8035feb-34d9-45df-988d-039e245ad9cb)
+
+In the assembly code we can see that the value of the stack pointer is being reduced by 10 in hexadecimal we is equivalent to being reduced by 16 in decimal notation
+After running the first line of the code the contents of the stack pointer get modified and we get the follwoing result
+
+![](https://github.com/user-attachments/assets/2de108ac-7905-4068-b458-65656e9fcee7)
+
+Similarly for the register a0 we observe the following initial and final contents [ O-fast]
+reg 0 a0
+
+!](https://github.com/user-attachments/assets/dfd43fd5-7095-41a9-9629-66638c1611f3)
+
+Similarly we can do the same for all the other instructions in the code and find out the contents in the respective addressing locations and their updated values once we execute the lines in the debugger.
+
 # ASSINGMENT -6
+
 # Introduction to TL-Verilog and Makerchip:
 
 Makerchip is a web-based platform that simplifies digital circuit design and prototyping by providing tools for simulation and testing directly in the browser. It supports Hardware Description Languages like Verilog and SystemVerilog, making it ideal for both educational purposes and collaborative projects. With its user-friendly interface and integrated resources, Makerchip facilitates easy design, debugging, and sharing of digital systems.
