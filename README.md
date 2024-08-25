@@ -97,6 +97,37 @@ reg 0 a0
 
 Similarly we can do the same for all the other instructions in the code and find out the contents in the respective addressing locations and their updated values once we execute the lines in the debugger.
 
+# ASSIGNMENT -5
+
+Selecting and Compiling a Application using GCC and RISC-V GCC
+
+# APPLICATION NAME - PRIME NUMBER CHECKER
+
+#include <stdio.h>
+#include <stdbool.h>
+
+bool is_prime(int n) {
+    if (n <= 1) return false;
+    for (int i = 2; i <= n / 2; i++) {
+        if (n % i == 0) return false;
+    }
+    return true;
+}
+
+int main() {
+    int num;
+    printf("Enter an integer: ");
+    scanf("%d", &num);
+
+    if (is_prime(num))
+        printf("%d is a prime number.\n", num);
+    else
+        printf("%d is not a prime number.\n", num);
+
+    return 0;
+}
+
+
 # ASSINGMENT -6
 
 # Introduction to TL-Verilog and Makerchip:
