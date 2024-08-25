@@ -590,3 +590,5 @@ B-> TOTAL CYCLIC CALCULATOR
 ![](https://github.com/user-attachments/assets/fa537073-dca2-468f-85a9-b3e06362bbfd)
 
 ![](https://github.com/user-attachments/assets/40cd16e6-de43-4e00-b9c8-2ded4a180746)
+
+![](https://github.com/user-attachments/assets/80e44645-3fc2-4513-b16f-ca42120e98da)
