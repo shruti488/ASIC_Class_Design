@@ -1,4 +1,4 @@
-# ASIC_Class_Design
+![kkkkkkkkkkkkkkkkkk](https://github.com/user-attachments/assets/1848ce19-fac1-45c4-ba0b-0f3af16a3c0f)# ASIC_Class_Design
 
 # Software Tools:
 GCC (GNU Compiler Collection)
@@ -126,6 +126,11 @@ int main() {
 
     return 0;
 }
+
+![](https://github.com/user-attachments/assets/0e587bbf-1335-40ee-95a6-9c21578b643d)
+
+![  k](https://github.com/user-attachments/assets/742afb0e-10e9-498d-ab2d-c3017ceaef7d)
+
 
 
 # ASSINGMENT -6
