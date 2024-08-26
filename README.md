@@ -1,4 +1,4 @@
-![kkkkkkkkkkkkkkkkkk](https://github.com/user-attachments/assets/1848ce19-fac1-45c4-ba0b-0f3af16a3c0f)# ASIC_Class_Design
+# ASIC_Class_Design
 
 # Software Tools:
 GCC (GNU Compiler Collection)
