@@ -681,3 +681,48 @@ B-> TOTAL CYCLIC CALCULATOR
 ![](https://github.com/user-attachments/assets/40cd16e6-de43-4e00-b9c8-2ded4a180746)
 
 ![](https://github.com/user-attachments/assets/80e44645-3fc2-4513-b16f-ca42120e98da)
+
+# ASSIGNMENT 7
+
+# Conversion from TLV into Verilog using Sandpiper-SaaS compiler.Following the conversion, pre-synthesis simulations will be conducted using the GTKWave simulator to verify the design.
+
+The RISC-V processor was originally designed using TL-Verilog within the Makerchip IDE. To deploy this design onto an FPGA, it was necessary to convert the TL-Verilog code into standard Verilog. This conversion was successfully carried out using the Sandpiper-SaaS compiler, which facilitated the transition from high-level TL-Verilog to the more widely used Verilog language, suitable for FPGA implementation. After the conversion, pre-synthesis simulations will be performed using the GTKWave simulator to thoroughly verify the functionality and correctness of the design before proceeding to the synthesis and hardware deployment stages. These simulations are crucial for ensuring that the design behaves as expected in a real hardware environment.
+
+STEP 1: Install sandpiper-sass using following command:
+
+pip3 install pyyaml click sandpiper-saas
+
+STEP2:Clone the Github and go to VSDbabySoc folder
+
+git clone https://github.com/manili/VSDBabySoC.git
+cd VSDBabySoc 
+![B](https://github.com/user-attachments/assets/359abc3b-6d92-4e8d-80ae-d9ae50d4df03)
+
+STEP3: Replace the following code in src/module with the rvmyth.tlv given and also change the testbench according to our makerchip code.
+![CC](https://github.com/user-attachments/assets/72e41672-af3e-4326-a77a-f245b4c36899)
+
+STEP 4: Now run the following command to convert the code.
+
+sandpiper-saas -i /home/vsduser/VSDBabySoC/src/module/shr_rvmyth.tlv -o rvmyth.v --bestsv --noline -p verilog --outdir /home/vsduser/VSDBabySoC/src/module/
+
+![1F](https://github.com/user-attachments/assets/bd84cb50-14ac-4e32-bea0-ed8d07ce8cfd)
+
+ step 5:Now create the pre_synth_sim.vcd by running the following command.
+
+make pre_synth_sim
+
+STEP 6: To compile and simulate RISC-V design run the following code:
+
+iverilog -o output/pre_synth_sim.out -DPRE_SYNTH_SIM src/module/testbench.v -I src/include -I src/module
+cd output
+./pre_synth_sim.vcd
+
+STEP 7: To open the Simulation file in gtkwave tool, run the following command.
+gtkwave pre_synth_sim.vcd
+
+![2F](https://github.com/user-attachments/assets/1ab4ee35-b830-4cef-8f0b-6b92652c49d6)
+
+ # Waveforms from GTKwave platform by running .v file after conversion
+Clk,Reset, Waveforms in one
+
+![f](https://github.com/user-attachments/assets/327b68c8-8896-4ce8-8cdc-863c675f6fed)
