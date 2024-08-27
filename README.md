@@ -726,3 +726,5 @@ gtkwave pre_synth_sim.vcd
 Clk,Reset, Waveforms in one
 
 ![f](https://github.com/user-attachments/assets/327b68c8-8896-4ce8-8cdc-863c675f6fed)
+
+![](https://github.com/user-attachments/assets/3d346150-86cf-4946-bb19-8f436e76df97)
