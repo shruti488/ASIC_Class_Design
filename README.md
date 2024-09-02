@@ -744,7 +744,8 @@ OUT is the output of DAC
 Here are the commands to do that
 Time and date are also dislayed: 
 
-[Screenshot from 2024-09-03 02-02-07](https://github.com/user-attachments/assets/26e88d33-fc21-4e34-8348-a4651173864f)
+
+![Screenshot from 2024-09-03 02-02-07](https://github.com/user-attachments/assets/4c98942b-41c1-4a90-8227-9f65168d14e3)
 
 Here is the output of gtkWave
 
