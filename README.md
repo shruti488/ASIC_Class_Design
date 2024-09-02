@@ -728,3 +728,24 @@ Clk,Reset, Waveforms in one
 ![f](https://github.com/user-attachments/assets/327b68c8-8896-4ce8-8cdc-863c675f6fed)
 
 ![](https://github.com/user-attachments/assets/3d346150-86cf-4946-bb19-8f436e76df97)
+
+
+# ASSIGNMENT -8
+
+# Integrating PLL, riscv core and DAC on babySOC and verifying its output.
+
+ this task we have used a PLL, Riscv core and DAC. Input to PLL is a low frequency signal coming from the crystal oscillators of SOC. PLL increases the frquency of input signal and gives it as input to the riscv core. The riscv core gives a 10 bit digital output which is gurther given to a DAC converter. The output of DAC is an analog signal OUT.We further analyze the ouptut in gtkWave.
+VCO_IN is the input to PLL
+CLK is the output of PLL
+clk_vai is the input of riscv
+OUT is the 10 bit output of riscv
+OUT is the output of DAC
+
+Here are the commands to do that
+Time and date are also dislayed: 
+
+/home/shruti-singh/Pictures/Screenshots/Screenshot from 2024-09-03 02-02-07.png
+
+Here is the output of gtkWave
+
+/home/shruti-singh/Pictures/Screenshots/Screenshot from 2024-09-03 01-57-38.png
