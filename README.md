@@ -1,4 +1,4 @@
-# ASIC_Class_Design
+![Screenshot from 2024-10-22 00-03-25](https://github.com/user-attachments/assets/25fc86a2-fad6-47ad-93fc-605e50b454e1)# ASIC_Class_Design
 
 # Software Tools:
 GCC (GNU Compiler Collection)
@@ -854,7 +854,60 @@ endmodule
 ![](https://github.com/user-attachments/assets/3bb7149c-1851-42cd-ab33-aac8ffa07d7b)
 ![](https://github.com/user-attachments/assets/606080f8-a47e-456f-badf-85edf48fb084)
 ![](https://github.com/user-attachments/assets/090fc6c8-87e1-450b-9bf7-33c0e4d5191c)
+![](https://github.com/user-attachments/assets/ce6e0573-4280-49cd-8c10-5a02bdc0522e)
+![](https://github.com/user-attachments/assets/d5b08097-d647-4917-b1e0-6d58aa2c1d0b)
+![](https://github.com/user-attachments/assets/10fa6f55-c3c4-449a-8817-e466556cc88a)
+![](https://github.com/user-attachments/assets/cae6c807-392a-4ba1-85ac-3272d1633eda)
+![](https://github.com/user-attachments/assets/e660403c-0a4a-4d9a-9c06-be7be59b9ae3)
+![](https://github.com/user-attachments/assets/a590688f-6f84-41a4-82c3-c009396f2e84)
+![](https://github.com/user-attachments/assets/f2692ae8-1a44-4117-a7ee-ef9850296111)
 
+Simulation of D-Flipflop using Iverilog and GTKWave: Performed simulations for 3 types of D-Flipflops - Asynchronous Reset, Asynchronous Set and Synchronous Reset. Asynchronous Reset
+
+
+![Screenshot from 2024-10-21 23-15-53](https://github.com/user-attachments/assets/46808c82-2036-495e-842c-a7fe963ab500)
+![Screenshot from 2024-10-21 23-16-37](https://github.com/user-attachments/assets/39176c49-ad14-474c-94e4-00d8e667f8bb)
+
+Asynchronous Set-
+
+![Screenshot from 2024-10-21 23-34-44](https://github.com/user-attachments/assets/e475d82a-004d-4469-8f7d-0f9c9632c9ed)
+
+![Screenshot from 2024-10-21 23-35-43](https://github.com/user-attachments/assets/4443e8e6-d7d5-4819-ab02-c0dabef6ceb6)
+
+Synthesis of D-Flipflop using Yosys: Synthesized 3 types of D-Flipflops - Asynchronous Reset, Asynchronous Set and Synchronous Reset. Asynchronous Reset
+
+![Screenshot from 2024-10-21 23-40-04](https://github.com/user-attachments/assets/723750a1-112d-4c43-82ba-7c6ce6ec7143)
+![Screenshot from 2024-10-21 23-41-23](https://github.com/user-attachments/assets/e372c605-92a6-4d1c-b97d-7849a4e81886)
+![Screenshot from 2024-10-21 23-41-39](https://github.com/user-attachments/assets/c89ee32d-4482-4214-b994-4d478cb71845)
+![Screenshot from 2024-10-21 23-41-54](https://github.com/user-attachments/assets/d85c6602-ee1c-4de7-b80c-330ccbb34ea8)
+![Screenshot from 2024-10-21 23-43-19](https://github.com/user-attachments/assets/febc7b9f-8285-4f22-98d8-4020c91ff222)
+![Screenshot from 2024-10-21 23-44-49](https://github.com/user-attachments/assets/c1ef6767-136d-4fb8-9f07-64deff8c0622)
+![Screenshot from 2024-10-21 23-45-01](https://github.com/user-attachments/assets/fe82dfd3-4fd0-4fd1-b30e-87dd5778b170)
+![Screenshot from 2024-10-21 23-45-15](https://github.com/user-attachments/assets/6a6c3c60-15f0-40b8-919e-d32121e949d1)
+![Screenshot from 2024-10-21 23-45-58](https://github.com/user-attachments/assets/5ad6c7f3-292e-4fba-9153-e4ceff312e2e)
+![Screenshot from 2024-10-21 23-46-20](https://github.com/user-attachments/assets/688abf7a-f102-4ee2-970c-3b238952767a)
+![Screenshot from 2024-10-21 23-47-25](https://github.com/user-attachments/assets/d8883776-d8f5-48c2-b73b-19e950ce5344)
+![Screenshot from 2024-10-21 23-48-03](https://github.com/user-attachments/assets/8a643e27-c227-4be9-a45c-b2a2b77a10b2)
+![Screenshot from 2024-10-21 23-48-23](https://github.com/user-attachments/assets/084514f9-db89-440a-8ab3-3b8bbad31e22)
+![Screenshot from 2024-10-21 23-50-22](https://github.com/user-attachments/assets/f4e117d2-bc1c-42ea-9745-c05b1a541a8f)
+![Screenshot from 2024-10-21 23-50-50](https://github.com/user-attachments/assets/b4a882f1-5b7e-496e-af95-c3928cd2607e)
+![Screenshot from 2024-10-21 23-51-36](https://github.com/user-attachments/assets/d711d304-eae0-4fd9-97aa-2f1c4ac187de)
+![Screenshot from 2024-10-21 23-53-03](https://github.com/user-attachments/assets/86819472-399c-422d-a02c-7930c3087bdb)
+![Screenshot from 2024-10-21 23-53-36](https://github.com/user-attachments/assets/4fd042c0-5a05-4f2a-9681-88f3e1b5fe29)
+![Screenshot from 2024-10-22 00-00-50](https://github.com/user-attachments/assets/d55dac25-7d0b-4af8-9cdb-cab24f4210ac)
+![Screenshot from 2024-10-22 00-01-07](https://github.com/user-attachments/assets/f395c3bd-e18d-4aa8-956e-6d82bd3f8bec)
+![Screenshot from 2024-10-22 00-01-20](https://github.com/user-attachments/assets/6bbeb0a0-10e8-4821-8e3d-86c2f61d42e9)
+![Screenshot from 2024-10-22 00-01-49](https://github.com/user-attachments/assets/9c5ce120-0401-4dad-90a8-3dc5eff5fcb5)
+![Screenshot from 2024-10-22 00-02-01](https://github.com/user-attachments/assets/60e09ffd-3ea3-4682-a674-8a1e774cc1f9)
+![Screenshot from 2024-10-22 00-02-15](https://github.com/user-attachments/assets/62a51b4d-673f-4b71-adab-4dccfd5a58fa)
+![Screenshot from 2024-10-22 00-02-30](https://github.com/user-attachments/assets/ea016dd8-1065-4c3d-902a-509ef04e1656)
+![Screenshot from 2024-10-22 00-02-43](https://github.com/user-attachments/assets/ac29af21-00fa-43d0-b643-8a3997b190c9)
+![Screenshot from 2024-10-22 00-05-40](https://github.com/user-attachments/assets/90aad655-3e51-4bd1-bc88-0711ab34d96e)
+![Screenshot from 2024-10-22 00-06-58](https://github.com/user-attachments/assets/512d0873-eb98-4933-87ef-255a043894b9)
+![Screenshot from 2024-10-22 00-09-33](https://github.com/user-attachments/assets/39883bde-5722-40d2-8603-54ef2f41ac7f)
+![Screenshot from 2024-10-22 00-10-53](https://github.com/user-attachments/assets/ceb3ead8-2063-4a59-aea6-1f54d4e6d41f)
+![Screenshot from 2024-10-22 00-13-41](https://github.com/user-attachments/assets/8dfe3eb8-7398-4ab0-9686-fa2f98f5ef94)
+![Screenshot from 2024-10-22 00-14-22](https://github.com/user-attachments/assets/807de72d-4ba1-41f1-849f-d55a30959243)
 
 
 
