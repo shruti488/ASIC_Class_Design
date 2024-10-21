@@ -1,4 +1,4 @@
-![Screenshot from 2024-10-22 00-03-25](https://github.com/user-attachments/assets/25fc86a2-fad6-47ad-93fc-605e50b454e1)# ASIC_Class_Design
+# ASIC_Class_Design
 
 # Software Tools:
 GCC (GNU Compiler Collection)
@@ -759,7 +759,7 @@ RTL design using Verilog with SKY130 Technology
 A simulator is used to confirm that a design meets its specifications by executing the corresponding code. It tracks changes in input signals, and upon any input change, it updates the outputs accordingly. RTL (Register Transfer Level) design refers to the Verilog code that captures the behavior of a digital circuit. To validate this design, a testbench is created and simulated with Icarus Verilog. During this simulation, a VCD (Value Change Dump) file is generated. This file can be examined using GTKWave, a tool that enables users to load, view, and analyze the waveforms produced during the simulation. By inspecting these waveforms, users can investigate signal interactions, confirm timing relationships, and ensure the circuit functions correctly.
 
 
-![(https://github.com/user-attachments/assets/8cbd88a7-82f2-4e8d-a001-ae995df1315a)
+![](https://github.com/user-attachments/assets/8cbd88a7-82f2-4e8d-a001-ae995df1315a)
 
 #DAY-1 LAB
 ![](https://github.com/user-attachments/assets/e18427e1-068c-4d8a-8108-19bb788d9a93)
