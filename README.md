@@ -909,7 +909,9 @@ Synthesis of D-Flipflop using Yosys: Synthesized 3 types of D-Flipflops - Asynch
 ![Screenshot from 2024-10-22 00-13-41](https://github.com/user-attachments/assets/8dfe3eb8-7398-4ab0-9686-fa2f98f5ef94)
 ![Screenshot from 2024-10-22 00-14-22](https://github.com/user-attachments/assets/807de72d-4ba1-41f1-849f-d55a30959243)
 
+#DAY-3
 
+Optimization of Various Designs Design infers 2 input AND Gate:
 
 
 
