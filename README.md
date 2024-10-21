@@ -845,3 +845,21 @@ sky130_fd_sc_hd_or2_0_3_ (A(_1_), .B( 0 ), .X( 2 ));
 	assign y = _2_;
 endmodule
 
+![Screenshot from 2024-10-21 16-58-28](https://github.com/user-attachments/assets/e1b758e3-21cc-4ae3-8273-06db5d8ab558)
+![Screenshot from 2024-10-21 16-59-00](https://github.com/user-attachments/assets/b1e430d2-8fac-4ac0-8af5-d718f2b63798)
+![Screenshot from 2024-10-21 17-01-40](https://github.com/user-attachments/assets/fe5bb9f9-da84-48ae-9e63-9e4e411e9cfe)
+![Screenshot from 2024-10-21 17-02-39](https://github.com/user-attachments/assets/488f1a3c-9c5b-425e-a6bc-39256236ff69)
+![Screenshot from 2024-10-21 17-06-03](https://github.com/user-attachments/assets/b6dc8c05-48c6-41ed-982a-75db912e6d30)
+![Screenshot from 2024-10-21 17-06-21](https://github.com/user-attachments/assets/72b6196e-500a-44bb-abf6-c3da6e988d95)
+
+
+
+
+
+
+
+
+
+
+
+
