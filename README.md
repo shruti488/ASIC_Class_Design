@@ -775,8 +775,6 @@ A simulator is used to confirm that a design meets its specifications by executi
 ![](https://github.com/user-attachments/assets/96827457-1ba5-4b1e-9cea-9ecbe26ef51f)
 
 
-
-
-
+#DAY-2 LAB
 
 
