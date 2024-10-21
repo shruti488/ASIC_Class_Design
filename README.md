@@ -990,6 +990,57 @@ Optimization of Various Designs Design infers 2 input AND Gate:
 ![image](https://github.com/user-attachments/assets/df00eb2c-0cf1-4567-8ac8-def2389564ab)
 
 
+#DAY-4
+Design of 2x1 MUX using Ternary Operator
+![Screenshot from 2024-10-22 04-21-57](https://github.com/user-attachments/assets/abe47a26-fbcc-41a4-9858-98e653111c19)
+![Screenshot from 2024-10-22 04-23-52](https://github.com/user-attachments/assets/16f6f8e8-925b-4a59-8729-b96a0baf1331)
+![Screenshot from 2024-10-22 04-25-42](https://github.com/user-attachments/assets/0e8e6d07-4e33-443b-8207-2cfa76e1dc33)
+![Screenshot from 2024-10-22 04-26-27](https://github.com/user-attachments/assets/59596022-897f-4b0b-ab6b-650339a4e1b6)
+![Screenshot from 2024-10-22 04-26-42](https://github.com/user-attachments/assets/24718ce7-3487-4b06-8422-c5a4b55596e7)
+![Screenshot from 2024-10-22 04-27-20](https://github.com/user-attachments/assets/2588b4bf-b378-4473-aa59-f4d11f27b8e1)
+![Screenshot from 2024-10-22 04-27-36](https://github.com/user-attachments/assets/e1afe655-52d4-4015-8102-a50f21ba5cef)
+![Screenshot from 2024-10-22 04-28-23](https://github.com/user-attachments/assets/28f2c1db-ee85-453e-96c6-cfcb3f7bb829)
+![Screenshot from 2024-10-22 04-28-57](https://github.com/user-attachments/assets/5c4559dc-a5e1-4ce6-9ed2-9c8805d92899)
+![Screenshot from 2024-10-22 04-29-16](https://github.com/user-attachments/assets/680fb212-6988-44be-a7d6-932d6f7c2798)
+![Screenshot from 2024-10-22 04-31-12](https://github.com/user-attachments/assets/438288b4-a35e-40ca-bd47-971d38e17f0a)
+![Screenshot from 2024-10-22 04-31-37](https://github.com/user-attachments/assets/c1fe4582-be65-4569-b128-3dfa6470ca0d)
+![Screenshot from 2024-10-22 04-38-36](https://github.com/user-attachments/assets/acb2c94a-69ba-4e95-9c95-ff399a2b58b2)
+![Screenshot from 2024-10-22 04-39-00](https://github.com/user-attachments/assets/309be8fa-10b5-418c-add8-aa7d0354ffff)
+![Screenshot from 2024-10-22 04-40-51](https://github.com/user-attachments/assets/02b044e8-d489-4cd4-bb95-f4677fc7ee4c)
+![Screenshot from 2024-10-22 04-41-28](https://github.com/user-attachments/assets/cda6a5b5-b505-4890-b5f8-2bf060dd81e4)
+![Screenshot from 2024-10-22 04-42-25](https://github.com/user-attachments/assets/8299063b-a6f7-4e44-8783-d3cec3ea5f62)
+![Screenshot from 2024-10-22 04-43-22](https://github.com/user-attachments/assets/bb98325f-095e-4913-a6ae-41985834899c)
+![Screenshot from 2024-10-22 04-43-35](https://github.com/user-attachments/assets/9180a41c-3a89-4261-b11d-fb42cb8bc01c)
+![Screenshot from 2024-10-22 04-44-24](https://github.com/user-attachments/assets/7d288025-0650-428c-acd2-8e1032a1b22a)
+![Screenshot from 2024-10-22 04-44-37](https://github.com/user-attachments/assets/46705c59-23d8-427e-b614-b2bf0aa6f7ea)
+![Screenshot from 2024-10-22 04-45-16](https://github.com/user-attachments/assets/92b40cd4-3802-4539-a492-c00cd8163b9d)
+![Screenshot from 2024-10-22 04-45-46](https://github.com/user-attachments/assets/a8b8d049-eb00-401b-97d5-9d2409be16ff)
+![Screenshot from 2024-10-22 04-46-19](https://github.com/user-attachments/assets/767a3221-ffce-48ff-863a-d74b44f3c59a)
+![Screenshot from 2024-10-22 04-46-58](https://github.com/user-attachments/assets/ddabd4b2-894c-4c3d-8c42-9616ed47adaa)
+![Screenshot from 2024-10-22 04-50-04](https://github.com/user-attachments/assets/3cd187e7-126a-436d-823e-b0ab77db0e68)
+![Screenshot from 2024-10-22 04-51-29](https://github.com/user-attachments/assets/ae169422-a4f4-4084-b5fc-f5f1a12340c2)
+![Screenshot from 2024-10-22 04-53-08](https://github.com/user-attachments/assets/f8dcd336-a2be-4a2d-8c75-831664c7935c)
+![Screenshot from 2024-10-22 04-53-42](https://github.com/user-attachments/assets/d7a2fa7a-d1ce-476a-b21e-db56622d2fdb)
+![Screenshot from 2024-10-22 04-55-27](https://github.com/user-attachments/assets/e478733e-ccf5-49be-83a3-fac56237ef72)
+![Screenshot from 2024-10-22 04-56-07](https://github.com/user-attachments/assets/e41ee20c-9cca-4d1e-916d-19fff13feae2)
+![Screenshot from 2024-10-22 04-56-19](https://github.com/user-attachments/assets/145aa5b2-0fe3-4c40-a2c9-4a76bff0e74e)
+![Screenshot from 2024-10-22 04-57-14](https://github.com/user-attachments/assets/fb82f39f-94c6-4eb2-b06b-50cad4939ea9)
+![Screenshot from 2024-10-22 04-58-00](https://github.com/user-attachments/assets/eb3ce164-02e8-45ea-a5f5-c61cfdb3dc47)
+![Screenshot from 2024-10-22 04-58-31](https://github.com/user-attachments/assets/f0340171-4717-41ad-9c8a-23b60bb98009)
+![Screenshot from 2024-10-22 04-59-12](https://github.com/user-attachments/assets/3e7b6f7a-15f6-4e27-980a-fc76992d7665)
+![Screenshot from 2024-10-22 05-04-19](https://github.com/user-attachments/assets/787d9509-17de-4c76-b0ce-6bbb0ea19dbc)
+![Screenshot from 2024-10-22 04-51-29](https://github.com/user-attachments/assets/ff0b4650-fa93-42b4-bec7-e95bf865b825)
+![Screenshot from 2024-10-22 04-53-42](https://github.com/user-attachments/assets/346353c1-80a2-416c-81aa-fcbd951a6b26)
+![Screenshot from 2024-10-22 05-05-18](https://github.com/user-attachments/assets/a00a25e3-8349-4c1e-825a-6ea00fd16d3b)
+
+
+
+
+
+
+
+
+
 
 
 
