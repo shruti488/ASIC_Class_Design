@@ -777,4 +777,71 @@ A simulator is used to confirm that a design meets its specifications by executi
 
 #DAY-2 LAB
 
+Yosys Synthesis for Multiple Modules: This tutorial involved the synthesis of a design file that has more than one module.
+
+//Design
+
+module sub_module2 (input a, input b, output y);
+	assign y = a | b;
+endmodule
+
+module sub_module1 (input a, input b, output y);
+	assign y = a&b;
+endmodule
+
+module multiple_modules (input a, input b, input c, output y);
+	wire net1;
+	sub_module1 u1(.a(a),.b(b),.y(net1)); //net1 = a&b
+	sub_module2 u2(.a(net1),.b(c),.y(y)); //y = netic,ie y = a&b + c;
+endmodule
+
+
+ yosys
+ read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+ read_verilog multiple_modules.v
+ synth -top multiple_modules
+ abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+ show
+ write_verilog -noattr multiple_modules_netlist.v
+ gvim multiple_modules_netlist.v
+
+ //Generated Netlist
+module multiple_modules (a, b, c, y);
+	input a; wire a;
+	input b; wire b;
+	input c; wire c;
+	wire net1;
+	output y; wire y;
+
+	sub_modulel ul (.a(a),.b(b),.y(net1));
+	sub_module2 u2 (.a(net1),.b(c),.y (y));
+endmodule
+
+module sub_modulel (a, b, y);
+	wire _0_;
+	wire _1_;
+	wire _2_;
+	input a; wire a;
+	input b; wire b;
+	output y; wire y;
+	
+sky130_fd_sc_hd_and2_0_3_(.A(_1_),.B(_0_),.X(_2_));
+		assign _1_ = b;
+	assign _0_ = a;
+	assign y = _2_;
+endmodule
+
+module sub_module2 (a, b, y);
+	wire _0_;
+	wire _1_;
+	wire _2_;
+	input a; wire a;
+	input b; wire b;
+	output y;wire y;
+
+sky130_fd_sc_hd_or2_0_3_ (A(_1_), .B( 0 ), .X( 2 ));
+	assign _1_ = b;
+	assign _0_ = a;
+	assign y = _2_;
+endmodule
 
