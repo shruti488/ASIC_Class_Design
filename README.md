@@ -762,17 +762,18 @@ A simulator is used to confirm that a design meets its specifications by executi
 ![(https://github.com/user-attachments/assets/8cbd88a7-82f2-4e8d-a001-ae995df1315a)
 
 #DAY-1 LAB
-![Screenshot from 2024-10-20 13-21-35](https://github.com/user-attachments/assets/e18427e1-068c-4d8a-8108-19bb788d9a93)
-![Screenshot from 2024-10-20 13-21-56](https://github.com/user-attachments/assets/db7695f5-01ee-47a8-a5c3-ca74b7d00f24)
-![Screenshot from 2024-10-20 13-27-35](https://github.com/user-attachments/assets/a0fd3269-e765-4a41-9115-4991d778d75a)
-![Screenshot from 2024-10-20 13-30-04](https://github.com/user-attachments/assets/1914487f-9a0c-4194-a795-9bd92bec8684)
-![Screenshot from 2024-10-20 16-34-26](https://github.com/user-attachments/assets/afc3f23b-45b4-4317-bda8-2ad60d211e82)
-![Screenshot from 2024-10-21 12-41-48](https://github.com/user-attachments/assets/fd4120d0-b0e8-4505-af18-fd549d022f1a)
-![Screenshot from 2024-10-21 1![Screenshot from 2024-10-21 12-47-09](https://github.com/user-attachments/assets/7fc5e69c-5db8-40c0-8f4a-60bdf3886fdf)
-2-43-50](https://github.co![Screenshot from 2024-10-21 12-47-37](https://github.com/user-attachments/assets/aa21c70a-bfec-43e6-818b-14e419c06790)
-m/user-attachments/asse![Screenshot from 2024-10-21 12-49-51](https://github.com/user-attachments/assets/398217c9-ed6d-4e78-a5e8-05eb0e488237)
-ts/e24debbb-5dbd-4994-a96c-![Screenshot from 2024-10-21 13-00-33](https://github.com/user-attachments/assets/c04d909e-0e63-4d29-8ef0-2b7f5b4792d7)
-16cf7e84815f)
+![](https://github.com/user-attachments/assets/e18427e1-068c-4d8a-8108-19bb788d9a93)
+![](https://github.com/user-attachments/assets/db7695f5-01ee-47a8-a5c3-ca74b7d00f24)
+![](https://github.com/user-attachments/assets/a0fd3269-e765-4a41-9115-4991d778d75a)
+![](https://github.com/user-attachments/assets/1914487f-9a0c-4194-a795-9bd92bec8684)
+![](https://github.com/user-attachments/assets/afc3f23b-45b4-4317-bda8-2ad60d211e82)
+![](https://github.com/user-attachments/assets/fd4120d0-b0e8-4505-af18-fd549d022f1a)
+![](https://github.com/user-attachments/assets/96e25ae5-fc23-4468-ba71-8d51ccd216bb)
+![](https://github.com/user-attachments/assets/1814e00d-508e-431a-9c8e-7c448710259a)
+![](https://github.com/user-attachments/assets/f3fd59ad-db80-481f-baf7-adeb8cb92b2d)
+![](https://github.com/user-attachments/assets/90f86ccf-e7d8-4e33-94ae-6f3acb85d5a7)
+![](https://github.com/user-attachments/assets/96827457-1ba5-4b1e-9cea-9ecbe26ef51f)
+
 
 
 
