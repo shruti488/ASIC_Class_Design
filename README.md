@@ -1034,6 +1034,22 @@ Design of 2x1 MUX using Ternary Operator
 ![Screenshot from 2024-10-22 05-05-18](https://github.com/user-attachments/assets/a00a25e3-8349-4c1e-825a-6ea00fd16d3b)
 
 
+#ASSIGNMENT -9
+
+Synthesis of RISCV verilog file and comparing the result
+
+![Screenshot from 2024-10-24 20-18-38](https://github.com/user-attachments/assets/85797a97-ef95-4823-9313-ab33e346856e)
+![Screenshot from 2024-10-24 20-22-09](https://github.com/user-attachments/assets/25fb39ca-8d97-4c72-851a-c92fe7c7bead)
+
+![Screenshot from 2024-10-24 20-22-25](https://github.com/user-attachments/assets/23791189-8646-4dfb-a0c4-a4945e9f4399)
+![Screenshot from 2024-10-24 20-22-49](https://github.com/user-attachments/assets/09e4cbd2-b698-45c3-a23c-5eb497bc7cd1)
+![Screenshot from 2024-10-24 23-05-08](https://github.com/user-attachments/assets/6eb31567-1e82-44da-bab9-fa08025cadf2)
+![Screenshot from 2024-10-24 23-05-25](https://github.com/user-attachments/assets/4e110783-93e0-4df1-955a-36826d4c325b)
+![Screenshot from 2024-10-24 23-05-37](https://github.com/user-attachments/assets/c7efe29c-ffed-4af7-97c4-e38c52cbd960)
+![Screenshot from 2024-10-24 23-05-49](https://github.com/user-attachments/assets/b3178296-c96f-4039-828f-f07f1b45accb)
+![Screenshot from 2024-10-24 23-06-37](https://github.com/user-attachments/assets/8491df7a-037b-4f60-83d1-62353f8f8c69)
+![Screenshot from 2024-10-24 23-06-48](https://github.com/user-attachments/assets/a2261303-172d-4ed9-99f6-35612c39b78d)
+![Screenshot from 2024-10-24 23-07-01](https://github.com/user-attachments/assets/935026e7-3694-453a-b07b-f0709d30a95d)
 
 
 
