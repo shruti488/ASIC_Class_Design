@@ -1053,6 +1053,15 @@ Synthesis of RISCV verilog file and comparing the result
 
 
 
+#ASSIGNMENT -10
+
+STATIC TIMING ANALYSIS
+![Screenshot from 2024-10-29 09-13-38](https://github.com/user-attachments/assets/62390f40-c9e9-48b5-9a6a-6aa0aa996182)
+![Screenshot from 2024-10-29 11-10-58](https://github.com/user-attachments/assets/ab821d68-9642-4a36-9d46-9bc0c9694368)
+![Screenshot from 2024-10-29 11-14-46](https://github.com/user-attachments/assets/40279101-b0f5-4b48-8cff-6a2cf56ae304)
+![Screenshot from 2024-10-29 09-19-50](https://github.com/user-attachments/assets/9730459c-d181-4cfa-9c78-5a0f7ba363b3)
+![Screenshot from 2024-10-29 09-19-53](https://github.com/user-attachments/assets/81d37385-836b-49ee-a3c0-4269c8046285)
+
 
 
 
