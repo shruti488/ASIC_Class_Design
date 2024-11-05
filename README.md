@@ -1071,7 +1071,7 @@ The sdc file is shown below : -
 
 ![Screenshot from 2024-11-05 21-55-24](https://github.com/user-attachments/assets/b9751ca0-6fbe-4af4-acf0-aabf9258e84d)
 ![Screenshot from 2024-11-05 21-56-39](https://github.com/user-attachments/assets/cda6cd51-3685-4e45-944d-b1a35c87c8f9)
-![1](https://github.com/user-attachments/assets/10b8f868-e509-413c-857b-d3c8062aedf5)
 ![2](https://github.com/user-attachments/assets/334dea8c-1dd1-441c-8e96-d106556153c7)
+![3](https://github.com/user-attachments/assets/eb9185f1-d61b-403a-86bd-6c1902f092b4)
 
 
