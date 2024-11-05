@@ -1063,10 +1063,15 @@ STATIC TIMING ANALYSIS
 ![Screenshot from 2024-10-29 09-19-53](https://github.com/user-attachments/assets/81d37385-836b-49ee-a3c0-4269c8046285)
 
 
+#ASSIGNMENT -11
 
+In this task we are performing STA on the core netlist we generated, using other library files.
+The sdc file is shown below : -
+![Screenshot from 2024-11-05 21-53-53](https://github.com/user-attachments/assets/29acb70f-5912-4150-b92b-c2324c99fa55)
 
-
-
-
+![Screenshot from 2024-11-05 21-55-24](https://github.com/user-attachments/assets/b9751ca0-6fbe-4af4-acf0-aabf9258e84d)
+![Screenshot from 2024-11-05 21-56-39](https://github.com/user-attachments/assets/cda6cd51-3685-4e45-944d-b1a35c87c8f9)
+![1](https://github.com/user-attachments/assets/10b8f868-e509-413c-857b-d3c8062aedf5)
+![2](https://github.com/user-attachments/assets/334dea8c-1dd1-441c-8e96-d106556153c7)
 
 
