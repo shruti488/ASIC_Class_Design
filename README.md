@@ -1105,6 +1105,7 @@ Flop ratio = Number of D Flip flops = 1613  = 0.1084
 DAY2:-  Good floorplan vs bad floorplan and introduction to library cells
 
 Floorplaning using OpenLANE:
+
 cd Desktop/work/tools/openlane_working_dir/openlane
 docker
 ./flow.tcl -interactive
@@ -1115,3 +1116,52 @@ run_floorplan
 ![2a](https://github.com/user-attachments/assets/e8139a44-0080-4dc2-9bb2-aaae925c17dc)
 ![2b](https://github.com/user-attachments/assets/65f776b0-01b8-4b84-b128-cb6e578e3dc1)
 ![2c](https://github.com/user-attachments/assets/e8176f9a-f611-44f4-9eb0-c72cbfdac154)
+
+Calculate the die area in microns from the values in floorplan def.
+
+![2d](https://github.com/user-attachments/assets/7709009a-e09d-42c6-a2cf-1783673355e8)
+![2e](https://github.com/user-attachments/assets/87d3b638-1c3f-4a25-88ca-b1ffa81d17ad)
+
+According to floorplan definition:
+
+1000 Unit Distance = 1 Micron
+
+Die width in unit distance = 660685−0 = 660685
+
+Die height in unit distance = 671405−0 = 671405
+
+Distance in microns = Value in Unit Distance/1000
+
+​Die width in microns = 660685/1000 = 660.685 Microns
+
+Die height in microns = 671405/1000 = 671.405 Microns
+
+Area of die in microns = 660.685 × 671.405 = 443587.212425 Square Microns
+
+To view the floorplan in magic. Open a new terminal and run the below commands:
+
+cd Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/09-11_07-10/results/floorplan/
+magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.floorplan.def &
+
+![2f](https://github.com/user-attachments/assets/53034697-fb51-4bbf-b405-dfb6da84053c)
+![2g](https://github.com/user-attachments/assets/3b63a3cf-9b53-42f1-a502-f4e918fe0390)
+
+Command to run placement:
+
+run_placement
+
+![2h](https://github.com/user-attachments/assets/46d4f51a-f9ec-47e4-9cc6-5da947291946)
+
+To view the placement in magic:
+
+cd Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/17-03_12-06/results/placement/
+magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.placement.def &
+
+![2i](https://github.com/user-attachments/assets/9972ddf7-768f-4963-8244-67041a28ea7b)
+
+# Exit from OpenLANE flow
+exit
+
+# Exit from OpenLANE flow docker sub-system
+exit
+
