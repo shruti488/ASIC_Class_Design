@@ -1165,3 +1165,80 @@ exit
 # Exit from OpenLANE flow docker sub-system
 exit
 
+DAY -3
+ Design library cell using Magic Layout and ngspice characterization
+
+ Creating a SPICE Deck for a CMOS Inverter Simulation
+
+    Netlist Creation: Define the component connections (netlist) for a CMOS inverter circuit. Ensure each node is labeled appropriately for easy identification in the SPICE simulation. Typical nodes include input, output, ground, and supply nodes.
+    Device Sizing: Specify the Width-to-Length (W/L) ratios for both the PMOS and NMOS transistors.For proper operation, the PMOS width should be larger than the NMOS width, usually 2x to 3x, to balance the drive strength
+    Voltage Levels: Set gate and supply voltages, often in multiples of the transistor length.
+    Node Naming: Assign node names to each connection point around the components to clearly identify each element in the SPICE netlist (e.g., VDD, GND, IN, OUT). This helps SPICE recognize each component and simulate the circuit effectively.
+
+#Clone custom inverter standard cell design from github repository
+
+# Change directory to openlane
+cd Desktop/work/tools/openlane_working_dir/openlane
+
+# Clone the repository with custom inverter design
+git clone https://github.com/nickson-jose/vsdstdcelldesign
+
+# Change into repository directory
+cd vsdstdcelldesign
+
+# Copy magic tech file to the repo directory for easy access
+cp /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech .
+
+# Check contents whether everything is present
+ls
+
+# Command to open custom inverter layout in magic
+magic -T sky130A.tech sky130_inv.mag &
+![3a](https://github.com/user-attachments/assets/f8f8d5cd-7bf7-4586-bf3e-e5f5e4590ad1)
+![3b](https://github.com/user-attachments/assets/c35b4c69-cb3a-47fa-b879-473fd6ce89e2)
+
+ Spice extraction of inverter in magic.
+
+ ![3c](https://github.com/user-attachments/assets/47a1a158-4cee-4487-9919-5cc1d48143b6)
+![3d](https://github.com/user-attachments/assets/9cd92007-f5be-43c2-9d45-677d2ac45ac1)
+![3](https://github.com/user-attachments/assets/e7d72f3d-3b9c-4a74-b35b-e645113307ff)
+
+Editing the spice model file for analysis through simulation.
+
+![3A](https://github.com/user-attachments/assets/9f59cd1d-e7f6-496d-9073-9dd9a2081487)
+
+Post-layout ngspice simulations.
+
+# Command to directly load spice file for simulation to ngspice
+ngspice sky130_inv.spice
+
+# Now that we have entered ngspice with the simulation spice file loaded we just have to load the plot
+plot y vs time a
+![3e](https://github.com/user-attachments/assets/7748048d-b34e-49f7-be8f-de8c815a40c7)
+![3h](https://github.com/user-attachments/assets/e79540d0-b70c-418a-92db-ee71db34a844)
+
+Magic Tool options and DRC Rules:
+
+cd
+wget http://opencircuitdesign.com/open_pdks/archive/drc_tests.tgz
+tar xfz drc_tests.tgz
+cd drc_tests
+ls -al
+gvim .magicrc
+magic -d XR &
+
+![3i](https://github.com/user-attachments/assets/60803f0a-1a35-4ea8-98c8-edbe42657226)
+![3j](https://github.com/user-attachments/assets/236b4353-d8d2-43d7-8ec3-6ef671fbb923)
+
+First load the poly file by load poly.mag on tkcon window.
+
+Run the commands in tkcon window
+
+tech load sky130A.tech
+drc check
+drc why
+![3m](https://github.com/user-attachments/assets/84f374f4-be09-4fe1-8f6b-9886d1caeafe)
+![g](https://github.com/user-attachments/assets/d39a47cd-7676-423c-8b8a-12adc45164e3)
+
+
+
