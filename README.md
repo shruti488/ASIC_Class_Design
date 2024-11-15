@@ -1074,4 +1074,44 @@ The sdc file is shown below : -
 ![2](https://github.com/user-attachments/assets/334dea8c-1dd1-441c-8e96-d106556153c7)
 ![3](https://github.com/user-attachments/assets/eb9185f1-d61b-403a-86bd-6c1902f092b4)
 
+#ASSIGNMENT -12
+Advanced Physical Design using OpenLane using Sky130
 
+DAY1:-  Inception of open-source EDA, OpenLane and Sky130 PDK
+
+Synthesis in Openlane:
+cd Desktop/work/tools/openlane_working_dir/openlane
+docker
+./flow.tcl -interactive
+package require openlane 0.9
+prep -design picorv32a
+run_synthesis
+![Screenshot from 2024-11-15 06-46-23](https://github.com/user-attachments/assets/8c1d5b70-1eb9-4e0b-91e9-234a0e6c7b14)
+
+![Screenshot from 2024-11-15 06-47-55](https://github.com/user-attachments/assets/ff73f98e-2288-45f9-9d13-67cbb0a944d7)
+![Screenshot from 2024-11-15 06-48-52](https://github.com/user-attachments/assets/5a4e51d6-2d56-42c0-9aee-37426d686e80)
+
+To view the yosys report:
+cd ../..
+cd reports/synthesis
+gedit 1-yosys_4.stat.rpt
+![Screenshot from 2024-11-15 06-52-06](https://github.com/user-attachments/assets/a7a1a8e2-5c32-4476-bb6c-159207794f49)
+![Screenshot from 2024-11-15 06-52-35](https://github.com/user-attachments/assets/05f147cd-a9c9-44f3-ad45-613924223ebf)
+
+Flop ratio = Number of D Flip flops = 1613  = 0.1084
+             ______________________   _____
+             Total Number of cells    14876
+
+DAY2:-  Good floorplan vs bad floorplan and introduction to library cells
+
+Floorplaning using OpenLANE:
+cd Desktop/work/tools/openlane_working_dir/openlane
+docker
+./flow.tcl -interactive
+package require openlane 0.9
+prep -design picorv32a
+run_synthesis
+run_floorplan
+![2a](https://github.com/user-attachments/assets/e8139a44-0080-4dc2-9bb2-aaae925c17dc)
+![2b](https://github.com/user-attachments/assets/65f776b0-01b8-4b84-b128-cb6e578e3dc1)
+![2c](https://github.com/user-attachments/assets/e8176f9a-f611-44f4-9eb0-c72cbfdac154)
